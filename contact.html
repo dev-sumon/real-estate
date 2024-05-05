@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--owl.carousel.min.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--/owl.theme.default.min.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="main_column">
+                <div class="left_column">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="right_column">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.htm">About</a></li>
+                            <li><a href="contact.html">Contect</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="item">
+            <img src="images/contact.jpg" alt="">
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="main_column">
+                <div class="left_column">
+                    <h2>Get in tech</h2>
+                    <div class="form">
+                        <form action="">
+                            <input type="text" name="" id="" placeholder="Enter Your Name">
+                            <input type="email" name="" id="" placeholder="Enter Your Email">
+                            <input type="tel" name="" id="" placeholder="Enter Your Phone">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            <input type="submit" value="Submit" class="btn">
+                        </form>
+                    </div>
+                </div>
+                <div class="right_column">
+                    <h2>Contact Us</h2>
+                    <div class="links">
+                        <a href="">+880 1568808176</a>
+                        <a href="">dev-sumon@gmail.com</a>
+                        <a href="">Mirpur-10, Dhaka</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.3276371497873!2d90.36749197410244!3d23.80694568660555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c143f3c5cb41%3A0x96cc2b8d847ada3e!2sEuropean%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1709904648953!5m2!1sen!2sbd" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="socket">
+        <div class="container">
+           <span>Design & Developed by Akhtaruzzaman</span>
+           <h6 id="datetime"></h6>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!--jquery.min.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+
+
+
+
+
+<script>
+    function updateDateTime() {
+      var now = new Date();
+      var datetimeElement = document.getElementById('datetime');
+      datetimeElement.innerHTML = now.toLocaleString();
+    }
+    
+    // Call the function initially
+    updateDateTime();
+    
+    // Update the date and time every second
+    setInterval(updateDateTime, 1000);
+    </script>
+</body>
+</html>

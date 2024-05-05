@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+.container{
+    max-width: 1240px;
+    padding: 0px 40px;
+    margin: 0 auto;
+}
+header{
+    background-color: #000;
+}
+header .main_column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .main_column .left_column .logo img{
+    max-width: 100%;
+    width: 60%;
+}
+header .main_column .right_column .menu ul{
+
+}
+header .main_column .right_column .menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+header .main_column .right_column .menu ul li:last-child{
+    margin-right: 0px;
+}
+header .main_column .right_column .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    
+
+}
+.banner_section .bnner_image img{
+    width: 100%;
+}
+/* service css satrt */
+.service{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.service h2{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    padding-bottom: 35px;
+}
+.service .main_column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+}
+.service .main_column .iteam img{
+    width: 100%;
+    border-radius: 5px;
+}
+.service .main_column .iteam h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    padding: 10px 0px 4px 0px;
+}
+.service .main_column .iteam p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-bottom: 7px;
+    color: #333;
+    font-size: 16px;
+}
+/* service css end */
+/* feedback css start */
+.feedback{
+    margin-top: 70px;
+
+    text-align: center;
+    background-color: #d1cece;
+    padding: 40px 0px;
+}
+.feedback h2{
+    padding-bottom: 30px;
+}
+.feedback img {
+    border-radius: 50%;
+    width: 15%;
+}
+.feedback .iteam h4{
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #333;
+    font-size: 17px;
+}
+/* feedback css end */
+/* socket css start */
+.socket{
+    /* margin-top: 50px; */
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+.socket h6{
+    padding-top: 10px;
+    font-size: 16px;
+}
+/* socket css end */
+/* about paage css satrt */
+/* about scrtion css satrt */
+.about{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.about h2 {
+    text-align: center;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 35px;
+}
+.about .main_column{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.about .main_column .left_column{
+    width: 48%;
+    margin: 2%;
+}
+.about .main_column .left_column p{
+    text-align: right;
+}
+.about .main_column .left_column .image img{
+    width: 100%;
+}
+.about .main_column .right_column{
+    width: 50%;
+}
+.about .main_column .right_column .image img{
+    width: 100%;
+}
+/* about scrtion css end */
+/* about paage css end */
+
+
+/* about paage css satrt */
+/* about scrtion css satrt */
+.about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about .main_column{
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.about .main_column .left_column{
+    width: 48%;
+    margin: 2%;
+}
+.about .main_column .left_column p{
+    text-align: right;
+}
+.about .main_column .left_column .image img{
+    width: 100%;
+}
+.about .main_column .right_column{
+    width: 50%;
+}
+.about .main_column .right_column .image img{
+    width: 100%;
+}
+/* about scrtion css end */
+/* about paage css end */
+
+/* contact page css start  */
+/* contact section css start  */
+.contact{
+    margin: 50px 0px;
+}
+
+.contact .main_column{
+    display: flex;
+    box-sizing: border-box;
+}
+.contact .main_column h2 {
+    text-align: start;
+    padding-bottom: 15px;
+}
+.contact .main_column .left_column{
+    width: 65%;
+    margin-right: 5%;
+}
+.contact .main_column .left_column input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.contact .main_column .left_column textarea{
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.contact .main_column .left_column .btn{
+    width: 20%;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+.contact .main_column .right_column{
+    width: 30%;
+}
+.contact .main_column .right_column .links a{
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+.banner .item img{
+    width: 100%;
+}
+/* contact section css end  */
+/* contact page css end  */
+
+/* faq page css start */
+/* faq csss start  */
+.faq {
+    margin: 50px auto;
+    max-width: 800px;
+    font-family: Arial, sans-serif;
+  }
+  .faq h2{
+    font-weight: 800;
+  }
+  .question {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+
+
+}
+.answer {
+    display: none;
+    margin-bottom: 20px;
+    /* margin-left: 20px; */
+}
+  .question:hover {
+    cursor: pointer;
+  }
+  /* Style for the "+" icon */
+  .plus-icon::before {
+    content: '+';
+    margin-right: 10px;
+  }
+/* faq csss end  */
+/* faq page css end */
+
+
+
+.owl-theme .owl-dots .owl-dot span {
+    display: none;
+}
